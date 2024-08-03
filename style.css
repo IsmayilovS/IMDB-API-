@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+header {
+    height: 56px;
+    display: flex;
+    background-color: rgb(18, 18, 18);
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#logoImdb{
+    width: 64px;
+    height: 32px;
+}
+header button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 32px;
+    background-color: rgb(18, 18, 18);
+}
+header button img{
+    width: 18px;
+    height: 12px;
+}
+header p{
+    color: white;
+}
+.searchbarDiv{
+    display: flex;
+}
+#searchbar{
+    width: 607px;
+    height: 32px;
+}
+#searchbarBtn{
+    background-color:rgb(18, 18, 18) ;
+}
+#logoImdbPro{
+    width: 84px;
+    height: 36px;
+}
